@@ -1,0 +1,81 @@
+*{
+    margin: 0 auto;
+    /* padding: 0 ; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+CU:wght@100..400&display=swap');
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+.background{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+
+.nav-item{
+   list-style: none;
+   margin-right: 40px;
+   
+}
+
+.display-flex{
+    display: flex;
+    align-items: center;
+   
+}
+.navbar{
+    margin-top: 48px;
+}
+.nav-links{
+    text-decoration: none;
+}
+.nav-text{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.nav-title{
+     font-family: "Inter";
+     font-weight: 800;
+     font-size: 2.3rem;
+     color: rgb(230, 83, 60);
+}
+.home{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    width: 90px;
+    padding: 6px;
+    align-items: center;
+}
+
+.bars-icon{
+    display: none;
+}
+
+
+
+
+
+
+/* css design for mobile */
+@media screen and (max-width: 576px) {
+
+    .nav-content{
+        display: none;
+    }
+    .bars-icon{
+        display: block;
+    }
+    .navbar{
+        margin-top: 30px;
+    }
+}
+
