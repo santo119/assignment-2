@@ -1,16 +1,28 @@
 *{
     margin: 0 auto;
-    /* padding: 0 ; */
+    padding: 0 ;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+CU:wght@100..400&display=swap');
 .inter-font {
-    font-family: "Inter", sans-serif;
+    font-family: "Inter",  sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     font-variation-settings:
       "slnt" 0;
+     
+  }
+
+  header, main, footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 auto;
+  } 
+  .shape-font {
+     font-family: "Dancing Script";
+    font-weight: 100;
+    font-style: italic;
   }
 
 .background{
@@ -30,6 +42,8 @@
 }
 .navbar{
     margin-top: 48px;
+    margin-bottom: 34px;
+    padding: 20px;
 }
 .nav-links{
     text-decoration: none;
@@ -52,7 +66,7 @@
     font-weight: 600;
     color: white;
     width: 90px;
-    padding: 6px;
+    padding: 8px 12px;
     align-items: center;
 }
 
@@ -61,8 +75,286 @@
 }
 
 
+/* banner design */
+.banner-content{
+    margin: 90px 80px 90px 190px;
+    
+}
+.banner-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 4.8rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.text{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn1{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    border-radius: 40px;
+    padding: 16px 18px;
+    background: rgb(230, 83, 60);
+    border: none;
+    margin-right: 10px;
+}
+.btn2{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    border-radius: 40px;
+    padding: 16px 18px;
+    border: none;
+    margin-right: 10px;
+   background: gray;
+
+}
+
+#icon2{
+    padding-top: 15px;
+    margin-top: 200px;
+    margin-left: 320px;
+    position: absolute;
+}
+
+.ban-image{
+    width: 449px;
+    height: 580px;
+    
+    
+   
+}
+.icon-btn{
+    padding-bottom: 30px;
+    width: 206px;
+    height: 90px;
+    background: rgba(48, 48, 48, 0.54);
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+#icon1{
+   margin-left: -100px;
+   margin-top: -200px;
+
+}
+
+  
+  
+    
 
 
+
+.fas{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 20px 0 10px;
+   
+}
+.number{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(250, 250, 249);
+    
+}
+.video{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 60px;
+    color: rgb(250, 250, 249);
+    
+}
+
+
+        /* habit section */
+
+        .habit-title, .habit-text{
+            margin-top: 60px;
+            text-align: center;
+            align-items: center;
+        }
+      
+        .habit-image{
+            border-radius: 50%;
+        }
+        .move, .move-text{
+        align-items: center;
+          text-align: center;
+          justify-content: center;
+          padding: 10px;
+         
+        }
+
+        .move{
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-right: 40px;
+            font-weight: 600;
+            font-size: 1.5rem;
+        }
+
+        /* run mile section */
+
+        .run-mile{
+            display: flex;
+        }
+        .run-image{
+            width: 50%;
+        }
+        .run{
+            margin-top: 60px;
+        }
+        .run-title{
+            font-size: 2.5rem;
+            margin: 15px;
+            padding: 15px;
+        }
+        .run-text{
+            margin: 15px;
+            padding: 15px;
+            font-size: 1rem;
+        }
+        .join{
+            width: 160px;
+            padding: 10px 15px;
+            margin-left: 20px;
+        }
+
+         /* BMI calculator  */
+         table{
+            border-collapse: collapse;
+         }
+         td,th{
+            border: 1px solid gray;
+            padding: 10px 5px 10px 20px;
+         }
+         .bmi-calculator{
+           
+            margin-top: 40px;
+            margin-bottom: 60px;
+            margin-left: 100px;
+            color: white;
+         }
+          .calculator-chart{
+            max-width: 400px;
+         }
+         .bmi-chart, .calc-title{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            font-size: 2rem;
+            
+         }
+         .bmi-title{
+           
+            font-size: 2.8em;
+            font-weight: 800;
+         }
+         .form{
+            margin: 20px;
+            padding: 20px;
+         }
+         #height, #kg, #number{
+            width: 100px;
+            height: 25px;
+            padding: 5px;
+            margin-bottom: 15px;
+         }
+         #sex{
+            width: 100px;
+            height: 40px;
+         }
+         #activity{
+            width: 280px;
+            height: 40px;
+            border-radius: 4px;
+           
+         }
+         .calc-title{
+            margin-top: 60px;
+         }
+         .bmi-calculator{
+            max-width: 1440px;
+         }
+         
+         /* meeet team section */
+
+         .meet-title, .meet-text{
+            align-items: center;
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            color: white;
+         }
+         
+         .mt{
+            position: absolute;
+            margin-left: 90px;
+            margin-top: -100px;
+            color: antiquewhite;
+            font-size: 1.5rem;
+            padding: 15px;
+         }
+         .trainer{
+            padding: 15px;
+            position: absolute;
+            margin-left: 90px;
+            margin-top: -60px;
+            color: antiquewhite;
+         }
+
+         .meet-container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+           padding: 30px;
+            margin: 20px;
+           
+         }
+         .team-image{
+           width: 400px; 
+          height: 300px;
+            border-radius: 12px 14px;
+            
+         
+            
+         }
+         .meet-container{
+            max-width: 1440px;
+            margin-top: 50px;
+         }
+        .fit-text, .get-title{
+            margin-top: 20px;
+            padding: 10px;
+        }
+        .get-title{
+            color: white;
+        }
+        .fit-text{
+            color: #FFFFFF80;
+        }
+        p{
+            margin: 10px;
+            padding: 5px;
+        }
+
+        .hr{
+            border: 2px solid gray;
+            max-width: 1200px;
+            
+
+        }
+        .all-right{
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
 
 
 /* css design for mobile */
@@ -73,9 +365,89 @@
     }
     .bars-icon{
         display: block;
+       color: white;
     }
     .navbar{
         margin-top: 30px;
     }
-}
+    .banner{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .banner-content{
+       flex-direction: column-reverse;
+    }
+    .banner-title, .nav-title{
+        font-size: 1.8rem;
+       
+    }
+    #icon1{
+      margin-left: 60px;
+      margin-top: -120px;
+      position: absolute;
+     
+    }
+    #icon2{
+        margin-top: 200px;
+        margin-left: 170px;
+    }
+    .ban-image, .team-image{
+        width: 100%;
+    }
+    .banner-content, .nav-title{
+       margin-left: 60px;
+       
+    }
+   .text{
+    font-size: 0.6rem;
+   }
+    .btn1, .btn2{
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+    
+    .cardview, .run-mile, .bmi-calculation, .meet-container, .foot-container, .ban-image{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .join{
+        width: 280px;
+        padding: 20px 20px; 
+        margin-bottom: 20px;
+        margin: 0 30px;
+    }
+    .run-image{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .bmi-title{
+        font-size: 1rem;
+        margin-left: 70px;
+        margin-bottom: 20px;
+    }
+    .bmi-text{
+        font-size: 0.8rem;
+        margin-left: 70px;
+    }
+    .calc-title{
+        font-size: 1.5rem;
+        margin-left: 60px;
+    }
+    .bmi-chart{
+        font-size: 1.2rem;
+    }
+    .calc-text{
+        margin-left: 35px;
+        font-size: 0.8em;
+    }
+    .bmi-calculator{
+        margin-left: 0px;
+    }
 
+
+    
+    
+    
+
+
+}
