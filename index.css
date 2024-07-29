@@ -333,6 +333,16 @@
             margin-top: 20px;
             padding: 10px;
         }
+
+        /* unique section */
+
+        
+        .uniqe-text{
+            margin-top: 15px;
+            color: rgb(230, 83, 60);
+            margin-left: 10px;
+        }
+
         .get-title{
             color: white;
         }
