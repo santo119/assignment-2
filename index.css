@@ -58,6 +58,7 @@
      font-weight: 800;
      font-size: 2.3rem;
      color: rgb(230, 83, 60);
+     margin-top: 20px;
 }
 .home{
     border-radius: 46px;
@@ -334,15 +335,22 @@
             padding: 10px;
         }
 
-        /* unique section */
+        footer{
+            margin-top: 50px;
+        }
 
+
+        /* unique section */
+       
         
         .uniqe-text{
             margin-top: 15px;
             color: rgb(230, 83, 60);
             margin-left: 10px;
         }
-
+        
+       
+       
         .get-title{
             color: white;
         }
@@ -364,6 +372,12 @@
             align-items: center;
             justify-content: center;
             text-align: center;
+        }
+
+        /* plans section */
+        .right{
+            padding: 5px;
+            gap: 5px;
         }
 
 
